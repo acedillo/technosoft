@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_logo"
+            android:title="@string/title_home"/>
+
+    <item
+            android:id="@+id/navigation_car"
+            android:icon="@drawable/ic_car"
+            android:title="@string/title_dashboard"/>
+
+    <item
+            android:id="@+id/navigation_house"
+            android:icon="@drawable/ic_home"
+            android:title="@string/title_notifications"/>
+
+    <item
+            android:id="@+id/navigation_boat"
+            android:icon="@drawable/ic_boat"
+            android:title="@string/title_dashboard"/>
+
+
+    <item
+            android:id="@+id/navigation_new"
+            android:icon="@drawable/ic_new_quote"
+            android:title="@string/title_dashboard"/>
+
+
+</menu>
