@@ -16,6 +16,7 @@ class HomeViewModelTest{
         assertEquals(HomeViewModel.Buttons.YES, viewModel.buttonClicked.value)
     }
 
+    @Test
     fun onNoClicked(){
         val viewModel = HomeViewModel()
         viewModel.onNoClick()
